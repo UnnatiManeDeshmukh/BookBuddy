@@ -7,7 +7,7 @@ A simple full-stack web application for managing book requests using **Spring Bo
 ## 👨‍💻 Developed By
 
 **Unnati Manedeshmukh**  
-Email: *unnati@example.com*  
+Email: *unnatimd22@example.com*  
 GitHub: [https://github.com/UnnatiManeDeshmukh](https://github.com/UnnatiManeDeshmukh)
 
 ---
@@ -55,7 +55,7 @@ cd BookBuddy/backend
 ```
 
 2. **Create a PostgreSQL database**  
-Database name: `bookbuddy_db` *(or your preferred name)*
+Database name: `bookbuddy_db` 
 
 3. **Configure DB in `application.properties`**  
 ```properties
@@ -82,9 +82,9 @@ python -m http.server 3000
 ```
 
 2. Visit the web page  
-[http://localhost:3000](http://localhost:3000)
+[http://localhost:](http://localhost:)
 
-> 📢 Ensure backend is running at `http://localhost:8081`
+> 📢 Ensure backend is running at `http://localhost:`
 
 ---
 
@@ -99,10 +99,10 @@ Enter password: `unnu`
 ## 📸 Preview
 
 ### 🧾 Request Form  
-![Request Form](https://github.com/user-attachments/assets/your-form-image-link.png)
+![Request Form](https://github.com/UnnatiManeDeshmukh/BookBuddy/edit/main/README.md/C:/Users/admin/Desktop/Traningnotes/output1.png)
 
 ### ✅ Admin Panel  
-![Admin Panel](https://github.com/user-attachments/assets/your-admin-image-link.png)
+![Admin Panel]((https://github.com/UnnatiManeDeshmukh/BookBuddy/edit/main/README.md/))
 
 ---
 
