@@ -45,7 +45,7 @@ A simple full-stack web application that allows users to request books and lets 
 ## 🧾 API Endpoints
 
 | Method | Endpoint                        | Description               |
-|--------|----------------------------------|---------------------------|
+|--------|----------------------------------|--------------------------|
 | POST   | `/api/request`                  | Submit a book request     |
 | GET    | `/api/request`                  | Get all requests          |
 | PUT    | `/api/request/{id}/approve`     | Approve a request         |
@@ -54,4 +54,43 @@ A simple full-stack web application that allows users to request books and lets 
 ---
 
 ## 📂 Project Structure
+BookBuddy/
+├── backend/
+│ ├── src/
+│ │ └── main/java/com/example/bookbuddy/
+│ │ ├── controller/
+│ │ ├── model/
+│ │ ├── repository/
+│ │ └── service/
+│ ├── resources/
+│ │ └── application.properties
+│ └── pom.xml
+│
+├── frontend/
+│ ├── index.html
+│ └── background.png
+
+---
+
+## 🔐 Admin Access
+
+| Username | Password |
+|----------|----------|
+| admin    | **unnu** |
+
+Only admin can see the full list of book requests and perform actions.
+
+---
+
+## ▶ How to Run
+
+### 1️⃣ Backend
+
+- Configure `application.properties`:
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/bookbuddy
+spring.datasource.username=postgres
+spring.datasource.password=unnati22
+spring.jpa.hibernate.ddl-auto=update
+server.port=7777
 
