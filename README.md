@@ -104,6 +104,16 @@ Enter password: `unnu`
 ### ✅ Admin Panel  
 ![Admin Panel](https://github.com/UnnatiManeDeshmukh/BookBuddy/blob/main/outpu2.JPG)
 
+## 📸 Preview
+
+### 🧾 Request Form  
+![Request Form](OutPut1.JPG)
+
+### ✅ Admin Panel  
+![Admin Panel](OutPut.JPG)
+
+### 🧪 API Testing (Postman)  
+![API Postman Output](POST_OP.JPG)
 ---
 
 ## 📬 API Tested Using Postman
