@@ -53,22 +53,25 @@ A simple full-stack web application that allows users to request books and lets 
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+```
 BookBuddy/
 ├── backend/
-│ ├── src/
-│ │ └── main/java/com/example/bookbuddy/
-│ │ ├── controller/
-│ │ ├── model/
-│ │ ├── repository/
-│ │ └── service/
-│ ├── resources/
-│ │ └── application.properties
-│ └── pom.xml
+│   ├── src/
+│   │   └── main/java/com/example/bookbuddy/
+│   │       ├── controller/        # REST API Controllers
+│   │       ├── model/             # Entity classes (BookRequest.java)
+│   │       ├── repository/        # JPA Repositories
+│   │       └── service/           # Business Logic
+│   ├── resources/
+│   │   └── application.properties # DB Config
+│   └── pom.xml                    # Maven configuration
 │
 ├── frontend/
-│ ├── index.html
-│ └── background.png
+│   ├── index.html                 # User + Admin Interface
+│   └── background.png             # Background Image
+```
 
 ---
 
